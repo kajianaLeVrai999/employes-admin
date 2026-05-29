@@ -1,0 +1,67 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "firstname": "Alice",
+      "lastname": "Martin",
+      "email": "alice@company.com",
+      "department": "Informatique",
+      "salary": 3000,
+      "active": true
+    },
+    {
+      "id": "2",
+      "firstname": "Bob",
+      "lastname": "Dupont",
+      "email": "bob@company.com",
+      "department": "Marketing",
+      "salary": 2500,
+      "active": true
+    },
+    {
+      "id": "3",
+      "firstname": "Clara",
+      "lastname": "Nguyen",
+      "email": "clara@company.com",
+      "department": "RH",
+      "salary": 2600,
+      "active": false
+    },
+    {
+      "id": "4",
+      "firstname": "Thomas",
+      "lastname": "Durand",
+      "email": "thomas@company.com",
+      "department": "Finance",
+      "salary": 3100,
+      "active": true
+    },
+    {
+      "id": "5",
+      "firstname": "Sarah",
+      "lastname": "Muller",
+      "email": "sarah@company.com",
+      "department": "Informatique",
+      "salary": 2900,
+      "active": false
+    },
+    {
+      "active": true,
+      "firstname": "Kajina",
+      "lastname": "Pro",
+      "email": "kajiana@gmail.com",
+      "department": "Informatique",
+      "salary": 10000,
+      "id": "-skvKZf"
+    },
+    {
+      "active": false,
+      "firstname": "king",
+      "lastname": "Martin",
+      "email": "kingMA@gmail.com",
+      "department": "Marketing",
+      "salary": 1500,
+      "id": "n8pER3A"
+    }
+  ]
+}
