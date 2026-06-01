@@ -8,8 +8,9 @@ import {
   ListButton,
   EditButton
 } from 'react-admin';
+import { InternsByManager } from './InternsByManager';
+import { DepartmentStats } from './DepartmentStats';
 
-// Barre d'actions supérieure personnalisée
 const ShowActions = () => (
   <TopToolbar>
     <ListButton label="Retour à la liste" />
@@ -20,7 +21,6 @@ const ShowActions = () => (
 export const EmployeeShow = () => (
   <Show actions={<ShowActions />}>
     <SimpleShowLayout>
-      <TextField label="ID" source="id" />
       <TextField label="Prénom" source="firstname" />
       <TextField label="Nom" source="lastname" />
       <TextField source="email" />
@@ -31,6 +31,8 @@ export const EmployeeShow = () => (
         options={{ style: 'currency', currency: 'EUR' }} 
       />
       <BooleanField label="Actif" source="active" />
+      <InternsByManager />
+      <DepartmentStats />
     </SimpleShowLayout>
   </Show>
 );
