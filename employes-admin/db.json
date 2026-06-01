@@ -6,7 +6,7 @@
       "lastname": "Martin",
       "email": "alice@company.com",
       "department": "Informatique",
-      "salary": 3000,
+      "salary": 2800,
       "active": true
     },
     {
@@ -43,25 +43,77 @@
       "email": "sarah@company.com",
       "department": "Informatique",
       "salary": 2900,
-      "active": false
+      "active": true
     },
     {
-      "active": true,
+      "id": "-skvKZf",
       "firstname": "Kajina",
       "lastname": "Pro",
       "email": "kajiana@gmail.com",
       "department": "Informatique",
       "salary": 10000,
-      "id": "-skvKZf"
+      "active": false
     },
     {
-      "active": false,
-      "firstname": "king",
+      "id": "n8pER3A",
+      "firstname": "King",
       "lastname": "Martin",
       "email": "kingMA@gmail.com",
       "department": "Marketing",
       "salary": 1500,
-      "id": "n8pER3A"
+      "active": false
+    }
+  ],
+  "interns": [
+    {
+      "id": "1",
+      "firstname": "Lucas",
+      "lastname": "Dubois",
+      "email": "lucas@intern.com",
+      "department": "Informatique",
+      "managerId": "1",
+      "isRemunerate": true,
+      "remuneration": 600
+    },
+    {
+      "id": "2",
+      "firstname": "Emma",
+      "lastname": "Leroy",
+      "email": "emma@intern.com",
+      "department": "Marketing",
+      "managerId": "2",
+      "isRemunerate": false,
+      "remuneration": 0
+    },
+    {
+      "id": "3",
+      "firstname": "Hugo",
+      "lastname": "Robert",
+      "email": "hugo@intern.com",
+      "department": "Informatique",
+      "managerId": "1",
+      "isRemunerate": true,
+      "remuneration": 550
+    },
+    {
+      "id": "4",
+      "firstname": "Jade",
+      "lastname": "Petit",
+      "email": "jade@intern.com",
+      "department": "Finance",
+      "managerId": "4",
+      "isRemunerate": true,
+      "remuneration": 700
+    },
+    {
+      "id": "5",
+      "firstname": "Enzo",
+      "lastname": "Moreau",
+      "email": "enzo@intern.com",
+      "department": "Informatique",
+      "managerId": "5",
+      "isRemunerate": false,
+      "remuneration": 0
     }
   ]
 }
