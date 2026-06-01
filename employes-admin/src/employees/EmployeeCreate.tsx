@@ -21,7 +21,7 @@ export const EmployeeCreate = () => (
         { id: 'RH', name: 'RH' },
         { id: 'Finance', name: 'Finance' },
       ]} />
-      <NumberInput source="salary" label="Salaire" validate={[required(), minValue(1500)]} />
+      <NumberInput source="salary" label="Salaire" defaultValue={1500} validate={[required(), minValue(1500)]} />
       <BooleanInput source="active" label="Actif" defaultValue={true} />
     </SimpleForm>
   </Create>
